@@ -1,0 +1,6 @@
+{
+    "port": 5000,
+    "jwtSecret": "172504",
+    "mongoUri": "mongodb://localhost/mern",
+    "baseUrl": "http://localhost:5000"
+}
