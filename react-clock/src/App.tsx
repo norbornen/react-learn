@@ -11,7 +11,7 @@ function App() {
         <div className="container mt-4">
             <Switch>
               <Route path="/clock" exact>
-                <Clock />
+                <Clock /><Clock />
               </Route>
               <Route path="/test">
                 <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
