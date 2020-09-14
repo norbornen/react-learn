@@ -46,6 +46,13 @@
       "last 1 safari version"
     ]
   },
+  "prettier": {
+    "arrowParens": "always",
+    "proseWrap": "always",
+    "singleQuote": true,
+    "trailingComma": "all",
+    "tabWidth": 2
+  },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.1.1",
     "@typescript-eslint/parser": "^4.1.1",
