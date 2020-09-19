@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
 import { Clock } from './components/Clock';
 import { Navbar } from './components/Navbar';
+import { TTranslate } from './components/TTranslate';
 
 function App() {
   return (
@@ -13,8 +14,8 @@ function App() {
               <Route path="/clock" exact>
                 <Clock /><Clock />
               </Route>
-              <Route path="/test">
-                <h1>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h1>
+              <Route path="/translate">
+                <TTranslate />
               </Route>
               <Redirect to="/clock" />
             </Switch>

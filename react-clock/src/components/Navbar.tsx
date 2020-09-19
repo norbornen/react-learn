@@ -8,7 +8,7 @@ export const Navbar: React.FC = () => {
       <div className="collapse navbar-collapse">
         <div className="navbar-nav mr-auto">
           <NavLink to="/clock" className="nav-link">Clock</NavLink>
-          <NavLink to="/test" className="nav-link">Test</NavLink>
+          <NavLink to="/translate" className="nav-link">Translate</NavLink>
         </div>
         <LoginControl />
       </div>
